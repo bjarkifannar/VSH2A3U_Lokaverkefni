@@ -1,0 +1,44 @@
+$color: #9C27B0;
+
+.contact-div {
+	padding: 1em;
+	width: 100%;
+}
+
+.contact-table {
+	width: 100%;
+	border-collapse: collapse;
+
+	input, textarea {
+		background-color: transparent;
+		border: 0;
+		border-bottom: 2px solid darken($color, 25%);
+		outline: 0;
+		padding: .5em;
+		margin: 0;
+		width: 100%;
+	}
+
+	input[type="button"] {
+		background-color: darken($color, 25%);
+		color: white;
+		border: 0;
+		padding: 1em;
+
+		&:hover {
+			background-color: $color;
+			cursor: pointer;
+		}
+	}
+
+	textarea {
+		resize: none;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	.contact-div {
+		width: 25em;
+		margin: 0 auto;
+	}
+}

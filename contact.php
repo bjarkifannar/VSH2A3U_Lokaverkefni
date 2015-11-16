@@ -38,7 +38,8 @@
 							</td>
 						</tr>
 						<tr>
-							<td colspan="2">
+							<td></td>
+							<td>
 								<input type="button" name="submit" value="Send">
 							</td>
 						</tr>
