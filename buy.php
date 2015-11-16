@@ -9,7 +9,7 @@
 		<?php
 			require "inc/header.php";
 		?>
-		<div class="buy-div">
+		<div class="buy-div col-1-3 floatleft">
 			<img src="img/ticket-normal.png">
 			<ul>
 				<li class="buy-title">Normal</li>
@@ -23,7 +23,7 @@
 				<li class="buy-button"><button class="button" href="#">Buy</button></li>
 			</ul>
 		</div>
-		<div class="buy-div">
+		<div class="buy-div col-1-3 floatleft">
 			<img src="img/ticket-vip.png">
 			<ul>
 				<li class="buy-title">VIP</li>
@@ -37,7 +37,7 @@
 				<li class="buy-button"><button class="button" href="#">Buy</button></li>
 			</ul>
 		</div>
-		<div class="buy-div">
+		<div class="buy-div col-1-3 floatleft">
 			<img src="img/ticket-front.png">
 			<ul>
 				<li class="buy-title">Front</li>
