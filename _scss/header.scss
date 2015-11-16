@@ -1,0 +1,63 @@
+$headerBgColor: #9C27B0;
+$mobileHeaderHeight: 11.5em;
+$headerHeight: 5em;
+
+.header {
+	display: table-row;
+	margin: 0;
+	padding: 0;
+	height: $mobileHeaderHeight;
+	
+	img {
+		height: 3em;
+		padding: .5em;
+	}
+
+	.link-padding {
+		padding: 1em;
+	}
+}
+
+.header-list {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: $headerBgColor;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	li {
+		width: 100%;
+		display: block;
+	}
+}
+
+.header-link {
+	text-decoration: none;
+	color: white;
+	font-size: 120%;
+	font-weight: bold;
+	display: block;
+}
+
+.change-bg:hover {
+	background-color: lighten($headerBgColor, 25%);
+}
+
+@media screen and (min-width: 48em) {
+	.header {
+		height: $headerHeight;
+	}
+
+	.header-list {
+		li {
+			position: relative;
+			top: 0;
+			margin: 0;
+			width: auto;
+			text-align: center;
+			display: inline-block;
+		}
+	}
+}
