@@ -1,5 +1,5 @@
 $headerBgColor: #9C27B0;
-$mobileHeaderHeight: 15em;
+$mobileHeaderHeight: auto;
 $headerHeight: 5em;
 
 .header {
@@ -7,6 +7,10 @@ $headerHeight: 5em;
 	margin: 0;
 	padding: 0;
 	height: $mobileHeaderHeight;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
 	
 	img {
 		height: 3em;
@@ -23,13 +27,38 @@ $headerHeight: 5em;
 	margin: 0;
 	padding: 0;
 	background-color: $headerBgColor;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 
 	li {
 		width: 100%;
 		display: block;
+	}
+
+	.bottom-border {
+		border-bottom: 2px solid darken($headerBgColor, 10%);
+	}
+}
+
+.hamburger {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.hamburger, .cross {
+	background-color: $headerBgColor;
+	border: 0;
+	outline: 0;
+	font-size: 120%;
+	color: white;
+	padding: 1em;
+	text-align: right;
+	width: 100%;
+
+	&:hover {
+		cursor: pointer;
 	}
 }
 
@@ -47,6 +76,9 @@ $headerHeight: 5em;
 
 @media screen and (min-width: 48em) {
 	.header {
+		position: relative;
+		top: 0;
+		left: 0;
 		height: $headerHeight;
 	}
 
@@ -58,6 +90,10 @@ $headerHeight: 5em;
 			width: auto;
 			text-align: center;
 			display: inline-block;
+		}
+
+		.bottom-border {
+			border: 0;
 		}
 	}
 }
