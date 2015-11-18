@@ -1,1 +1,18 @@
-.footer{background-color:#9C27B0;color:white;display:table-row;height:0}.footer-list{margin:0 auto;padding:0}.footer-list li{padding:.5em 0}@media screen and (min-width: 48em){.footer-list{width:20em;float:left}}
+.footer {
+  background-color: #9C27B0;
+  color: white;
+  display: table-row;
+  height: 0; }
+
+.footer-list {
+  margin: 0 auto;
+  padding: 0; }
+  .footer-list li {
+    padding: .5em 0; }
+
+@media screen and (min-width: 48em) {
+  .footer-list {
+    width: 20em;
+    float: left; } }
+
+/*# sourceMappingURL=footer.css.map */

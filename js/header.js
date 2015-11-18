@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var windowWidth;
 var showMenu = false;
 
@@ -57,3 +58,9 @@ function toggleMenu() {
 
 	$(".header-list").animate({height: 'toggle'}, 350);
 }
+=======
+$('button').click(function() {
+  
+$(this).toggleClass('expanded').siblings('div').slideToggle();
+});
+>>>>>>> origin/master
