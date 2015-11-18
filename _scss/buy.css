@@ -1,3 +1,7 @@
+.buy-select {
+  padding: .5em;
+  width: 10em; }
+
 .buy-div {
   background-color: black;
   color: white;
@@ -5,6 +9,20 @@
   .buy-div img {
     width: 100%; }
 
+.buy-button button {
+  width: 100%;
+  padding: 1em;
+  background-color: white;
+  border: 0;
+  margin-top: .5em;
+  outline: 0; }
+  .buy-button button:hover {
+    background-color: #bfbfbf;
+    cursor: pointer; }
+
 @media screen and (min-width: 48em) {
   .buy-div img {
+    width: 10em; }
+
+  .buy-button button {
     width: 10em; } }
