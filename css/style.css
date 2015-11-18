@@ -35,7 +35,11 @@ ul {
   display: table-row;
   margin: 0;
   padding: 0;
-  height: 15em; }
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100; }
   .header img {
     height: 3em;
     padding: .5em; }
@@ -47,12 +51,31 @@ ul {
   margin: 0;
   padding: 0;
   background-color: #9C27B0;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0; }
   .header-list li {
     width: 100%;
     display: block; }
+  .header-list .bottom-border {
+    border-bottom: 2px solid #771e86; }
+
+.hamburger {
+  position: fixed;
+  top: 0;
+  right: 0; }
+
+.hamburger, .cross {
+  background-color: #9C27B0;
+  border: 0;
+  outline: 0;
+  font-size: 120%;
+  color: white;
+  padding: 1em;
+  text-align: right;
+  width: 100%; }
+  .hamburger:hover, .cross:hover {
+    cursor: pointer; }
 
 .header-link {
   text-decoration: none;
@@ -66,6 +89,9 @@ ul {
 
 @media screen and (min-width: 48em) {
   .header {
+    position: relative;
+    top: 0;
+    left: 0;
     height: 5em; }
 
   .header-list li {
@@ -74,7 +100,9 @@ ul {
     margin: 0;
     width: auto;
     text-align: center;
-    display: inline-block; } }
+    display: inline-block; }
+  .header-list .bottom-border {
+    border: 0; } }
 /*hamburger menu*/
 .footer {
   background-color: #9C27B0;
@@ -192,7 +220,12 @@ ul {
   padding: 2px 0; }
 
 .main {
-  width: 100%; }
+  width: 100%;
+  margin-top: 3.8em;
+  padding-top: 1em; }
+
+.index-row {
+  background-color: black; }
 
 .index-col {
   width: 100%;
@@ -238,6 +271,10 @@ ul {
     background-color: black; }
 
 @media screen and (min-width: 48em) {
+  .main {
+    margin: 0;
+    padding: 0; }
+
   .index-col .event-name {
     font-size: 110%; } }
 .buy-select {

@@ -1,5 +1,10 @@
 .main {
-  width: 100%; }
+  width: 100%;
+  margin-top: 3.8em;
+  padding-top: 1em; }
+
+.index-row {
+  background-color: black; }
 
 .index-col {
   width: 100%;
@@ -45,5 +50,9 @@
     background-color: black; }
 
 @media screen and (min-width: 48em) {
+  .main {
+    margin: 0;
+    padding: 0; }
+
   .index-col .event-name {
     font-size: 110%; } }

@@ -5,7 +5,7 @@
 			require "inc/head.php";
 		?>
 	</head>
-	<body>
+	<body class="index-row">
 		<?php
 			require "inc/header.php";
 		?>
