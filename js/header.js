@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var windowWidth;
 var showMenu = false;
 
@@ -49,7 +48,7 @@ $(window).resize(function() {
 
 function toggleMenu() {
 	if(showMenu) {
-		$(".hamburger").fadeOut(200);
+		$(".hamburger").fadeOut(500);
 		$(".cross").show();
 	} else {
 		$(".hamburger").show();
@@ -58,9 +57,3 @@ function toggleMenu() {
 
 	$(".header-list").animate({height: 'toggle'}, 350);
 }
-=======
-$('button').click(function() {
-  
-$(this).toggleClass('expanded').siblings('div').slideToggle();
-});
->>>>>>> origin/master
