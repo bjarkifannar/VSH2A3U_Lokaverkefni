@@ -51,6 +51,25 @@
 					</table>
 				</form>
 			</div>
+			<div>
+				<!-- Email -->
+			    <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
+			        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+			    </a>
+			 
+			    <!-- Facebook -->
+			    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+			        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+			    </a>
+			    
+			    <!-- Google+ -->
+			    <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+			        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+			    </a>
+			     <a href="http://reddit.com/submit?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+			        <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
+			    </a>
+			</div>
 		</div>
 		<?php
 			require "inc/footer.php";
