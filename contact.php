@@ -31,6 +31,14 @@
 						</tr>
 						<tr>
 							<td>
+								<label for="phone">Phone*:</label>
+							</td>
+							<td>
+								<input type="text" name="phone" maxlength="7" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
 								<label for="message">Message*:</label>
 							</td>
 							<td>
