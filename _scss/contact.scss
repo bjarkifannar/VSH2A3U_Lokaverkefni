@@ -10,17 +10,17 @@ $color: #9C27B0;
 	border-collapse: collapse;
 
 	input, textarea {
-		background-color: transparent;
+		background-color: white;
 		border: 0;
-		border-bottom: 2px solid darken($color, 25%);
+		border-bottom: 2px solid lighten($color, 25%);
 		outline: 0;
 		padding: .5em;
 		margin: 0;
 		width: 100%;
 	}
 
-	input[type="button"] {
-		background-color: darken($color, 25%);
+	input[type="submit"] {
+		background-color: lighten($color, 25%);
 		color: white;
 		border: 0;
 		padding: 1em;
