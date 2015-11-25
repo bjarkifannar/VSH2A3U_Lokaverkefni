@@ -14,15 +14,15 @@
 				<form action="contact.php" method="POST" accept-charset="UTF-8">
 					<table class="contact-table">
 						<tr>
-							<td>
+							<td> <!-- this is where you insert you're name in contacts-->
 								<label for="name">Name*:</label>
 							</td>
-							<td>
+							<td> 
 								<input type="text" name="name" required>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td> <!-- this is where you insert you're email in contacts-->
 								<label for="email">Email*:</label>
 							</td>
 							<td>
@@ -30,7 +30,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td> <!-- this is where you insert you're phone number in contacts-->
 								<label for="phone">Phone*:</label>
 							</td>
 							<td>
@@ -38,7 +38,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<td> <!-- this is where you insert a message in contacts-->
 								<label for="message">Message*:</label>
 							</td>
 							<td>
@@ -46,13 +46,13 @@
 							</td>
 						</tr>
 						<tr>
-							<td></td>
-							<td>
+							<td></td> 
+							<td> <!-- this is where you send all the info from the label in contacts-->
 								<input type="submit" name="submit" value="Send">
 							</td>
 						</tr>
 						<tr>
-							<td colspan="2">
+							<td colspan="2"> <!-- not needed -->
 								<p>* required field</p>
 							</td>
 						</tr>

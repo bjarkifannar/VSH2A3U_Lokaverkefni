@@ -11,7 +11,7 @@
 		?>
 		<div class="main">
 			<div class="buy-div col-1-3 floatleft">
-				<img src="img/ticket-normal.png">
+				<img src="img/ticket-normal.png"> <!-- normal tickets-->
 				<ul>
 					<li class="buy-title">Normal</li>
 					<li class="buy-price">$60</li>
@@ -25,7 +25,7 @@
 				</ul>
 			</div>
 			<div class="buy-div col-1-3 floatleft">
-				<img src="img/ticket-vip.png">
+				<img src="img/ticket-vip.png"> <!-- vip tickets-->
 				<ul>
 					<li class="buy-title">VIP</li>
 					<li class="buy-price">$200</li>
@@ -39,7 +39,7 @@
 				</ul>
 			</div>
 			<div class="buy-div col-1-3 floatleft">
-				<img src="img/ticket-front.png">
+				<img src="img/ticket-front.png"> <!-- front.row tickets-->
 				<ul>
 					<li class="buy-title">Front</li>
 					<li class="buy-price">$80</li>
