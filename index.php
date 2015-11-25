@@ -16,6 +16,7 @@
 				<div class="index-buttons">
 					<button class="ghost-button" onclick="navigate('buy.php');">Buy Tickets</button>
 					<button class="ghost-button" onclick="navigate('about.php');">Details</button>
+					<button class="ghost-button" onclick="navigate('https://www.youtube.com/results?search_query=skálmöld');">YouTube</button>
 				</div>
 			</div>
 			<div class="col-1-4 floatleft index-col index-col-left event-div">
@@ -24,6 +25,7 @@
 				<div class="index-buttons">
 					<button class="ghost-button" onclick="navigate('buy.php');">Buy Tickets</button>
 					<button class="ghost-button" onclick="navigate('about.php');">Details</button>
+					<button class="ghost-button" onclick="navigate('https://www.youtube.com/results?search_query=bubbi+morthens');">YouTube</button>
 				</div>
 			</div>
 			<div class="col-1-4 floatleft index-col index-col-left event-div">
@@ -32,6 +34,7 @@
 				<div class="index-buttons">
 					<button class="ghost-button" onclick="navigate('buy.php');">Buy Tickets</button>
 					<button class="ghost-button" onclick="navigate('about.php');">Details</button>
+					<button class="ghost-button" onclick="navigate('https://www.youtube.com/results?search_query=eluveitie');">YouTube</button>
 				</div>
 			</div>
 			<div class="col-1-4 floatleft index-col index-col-left event-div">
@@ -40,6 +43,7 @@
 				<div class="index-buttons">
 					<button class="ghost-button" onclick="navigate('buy.php');">Buy Tickets</button>
 					<button class="ghost-button" onclick="navigate('about.php');">Details</button>
+					<button class="ghost-button" onclick="navigate('https://www.youtube.com/results?search_query=vintage+caravan');">YouTube</button>
 				</div>
 			</div>
 		</div>
