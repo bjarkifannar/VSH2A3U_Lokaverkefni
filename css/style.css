@@ -104,6 +104,10 @@ ul {
     display: inline-block; }
   .header-list .bottom-border {
     border: 0; } }
+.logo {
+  margin: 0;
+  padding: 0; }
+
 /*hamburger menu*/
 .footer {
   background-color: #9C27B0;
