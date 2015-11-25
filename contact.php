@@ -26,7 +26,15 @@
 								<label for="email">Email*:</label>
 							</td>
 							<td>
-								<input type="text" name="email" required>
+								<input type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="phone">Phone*:</label>
+							</td>
+							<td>
+								<input type="text" name="phone" pattern="[0-9](\d+)[\-]?[\ ]?(\d+)" required>
 							</td>
 						</tr>
 						<tr>
