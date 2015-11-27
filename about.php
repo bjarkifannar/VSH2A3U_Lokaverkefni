@@ -19,7 +19,7 @@
 				and you need tickets for the show to night but you don't have that much money
 			</p>
 			<p class="center-text">
-				well tickets.is is here you save you
+				well tickets.is is here to save you
 			</p>
 			<img src="img/reykjavik.jpg" class="img-text">
 			<p class="center-text">
@@ -27,7 +27,7 @@
 				Tickets is THE most amazing webside in the world and it was just a school project.<br>
 				it got so famous that is almost kill the internet and made the creators og this side<br>
 				a multi billon dallalla(because it cooler) company.
-				... btw we sell tickets for the best prize in all of iceland
+				... btw did we tell you that we sell tickets for the best prize in all of iceland
 			</p>
 		</div>
 		<?php
